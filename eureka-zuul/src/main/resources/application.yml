@@ -1,14 +1,14 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8000/eureka/
 spring:
   application:
     name: eureka-zuul
 server:
-  port: 8004
+  port: 8031
 zuul:
   routes:
     api-a:
       path: /api-a/**
-      serviceId: service-hi
+      serviceId: eureka-feigin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8001/eureka/
