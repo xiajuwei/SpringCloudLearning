@@ -1,0 +1,18 @@
+spring:
+  profiles: dev
+  application:
+    name: eureka-feigin
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 5
+  client:
+    service-url:
+      defaultZone: http://192.168.60.245:8001/eureka/,http://192.168.60.245:8002/eureka/,http://192.168.60.141:8003/eureka/,http://192.168.60.141:8004/eureka/
+server:
+  port: 8021
+
+feign:
+  hystrix:
+    enabled: true

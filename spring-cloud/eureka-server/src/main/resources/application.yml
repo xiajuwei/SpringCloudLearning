@@ -9,8 +9,8 @@ spring:
 #配置eureka注册中心
 eureka:
   server:
-    #配置关闭自我保护模式
-    enable-self-preservation: false
+    #配置自我保护模式
+    enable-self-preservation: true
     #配置Eureka Server清理无效节点的时间间隔
     eviction-interval-timer-in-ms: 4000
   instance:

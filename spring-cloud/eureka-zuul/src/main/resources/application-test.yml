@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-zuul
+zuul:
+  routes:
+    api-a:
+      path: /api-feign/**
+      serviceId: eureka-feigin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.60.245:8001/eureka/,http://192.168.60.245:8002/eureka/,http://192.168.60.141:8003/eureka/,http://192.168.60.141:8004/eureka/
+server:
+  port: 8032
