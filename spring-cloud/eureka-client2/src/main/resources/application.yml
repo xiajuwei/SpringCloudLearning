@@ -8,6 +8,6 @@ eureka:
     lease-expiration-duration-in-seconds: 5
   client:
     service-url:
-      defaultZone: http://localhost:8000/eureka/
+      defaultZone: http://192.168.60.245:8001/eureka/
 server:
-  port: 8011
+  port: 8012
