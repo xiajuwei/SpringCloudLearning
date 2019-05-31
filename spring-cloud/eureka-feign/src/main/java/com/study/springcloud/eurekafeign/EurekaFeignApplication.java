@@ -1,4 +1,4 @@
-package com.study.eurekafeign;
+package com.study.springcloud.eurekafeign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

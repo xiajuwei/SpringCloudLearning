@@ -1,4 +1,4 @@
-package com.study.eurekafeign.feign;
+package com.study.springcloud.eurekafeign.feign;
 
 import org.springframework.stereotype.Component;
 

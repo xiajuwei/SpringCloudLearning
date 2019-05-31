@@ -1,4 +1,4 @@
-package com.study.eurekafeign;
+package com.study.springcloud.eurekaclient2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaFeignApplicationTests {
+public class EurekaClient2ApplicationTests {
 
     @Test
     public void contextLoads() {

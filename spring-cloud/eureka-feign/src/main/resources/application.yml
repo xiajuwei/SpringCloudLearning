@@ -2,11 +2,13 @@ spring:
   application:
     name: eureka-feigin
 eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.60.141:8003/eureka/
   instance:
     prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 5
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
 server:
   port: 8020
 

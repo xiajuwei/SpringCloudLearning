@@ -1,6 +1,6 @@
-package com.study.eurekafeign.controller;
+package com.study.springcloud.eurekafeign.controller;
 
-import com.study.eurekafeign.feign.EurekaFeign;
+import com.study.springcloud.eurekafeign.feign.EurekaFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
