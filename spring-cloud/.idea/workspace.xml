@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c1b4d8a-5c29-43f8-ba0b-cd4eb87b6064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/map/ConcurrentHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/jdk8/src/test/java/com/study/jdk8/DateTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/singleton/src/main/java/com/study/java/singleton/singleton/Singleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/main/java/com/study/collectionmap/CollectionMapApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/main/java/com/study/collectionmap/CollectionMapApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/main/java/com/study/collectionmap/collection/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/main/java/com/study/collectionmap/collection/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/CollectionMapApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/CollectionMapApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/list/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/list/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/list/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/list/VectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/set/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/set/HashSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/set/LinkedHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/set/LinkedHashSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/collection/set/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/collection/set/TreeSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection-map/study.md" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/study.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/src/main/java/com/study/configclient/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/ConfigClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/src/main/java/com/study/configclient/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-client/src/test/java/com/study/configclient/ConfigClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/test/java/com/study/configclient/ConfigClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/main/java/com/study/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/study/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/test/java/com/study/configserver/ConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/test/java/com/study/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/src/main/java/com/study/eurekaclient/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/src/main/java/com/study/eurekaclient/controller/EurekaClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/study/eurekaclient/controller/EurekaClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client/src/test/java/com/study/eurekaclient/EurekaClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/study/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/src/main/java/com/study/eurekaclient2/EurekaClient2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/src/main/java/com/study/eurekaclient2/EurekaClient2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/src/main/java/com/study/eurekaclient2/controller/EurekaClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/src/main/java/com/study/eurekaclient2/controller/EurekaClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-client2/src/test/java/com/study/eurekaclient2/EurekaClient2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client2/src/test/java/com/study/eurekaclient2/EurekaClient2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/main/java/com/study/eurekafeign/EurekaFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/study/eurekafeign/EurekaFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/main/java/com/study/eurekafeign/controller/EurekaFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/study/eurekafeign/controller/EurekaFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/main/java/com/study/eurekafeign/feign/EurekaFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/study/eurekafeign/feign/EurekaFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/main/java/com/study/eurekafeign/feign/SchedualServiceHiHystric.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/study/eurekafeign/feign/SchedualServiceHiHystric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-feign/src/test/java/com/study/eurekafeign/EurekaFeignApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/test/java/com/study/eurekafeign/EurekaFeignApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java/jdk8/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../java/jdk8/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/java/com/study/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/study/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-peer1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-peer2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-peer3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer3.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-peer4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-peer4.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-server/src/test/java/com/study/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/study/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/jdk8/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/src/main/java/com/study/eurekazuul/EurekaZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/src/main/java/com/study/eurekazuul/EurekaZuulApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-zuul/src/test/java/com/study/eurekazuul/EurekaZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-zuul/src/test/java/com/study/eurekazuul/EurekaZuulApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/eurekaserver/EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+              <folding>
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\ideaWork\study\repository" />
+        <option name="mavenHome" value="D:/java/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="46" />
+    <option name="width" value="1229" />
+    <option name="height" value="905" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1b4d8a-5c29-43f8-ba0b-cd4eb87b6064" name="Default Changelist" comment="" />
+      <created>1559269286121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559269286121</updated>
+      <workItem from="1559269287308" duration="1003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1003000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15565032" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5672451" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.20522387" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/study/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eureka-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
