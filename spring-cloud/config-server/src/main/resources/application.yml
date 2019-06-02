@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/xiajuwei/springCloudConfig
+          search-paths: config
+          username: xiajuwei@163.com
+          password: xj13655675071
+
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh
+
+#spring.application.name=config-server
+#server.port=8888
+#eureka.client.service-url.defaultZone=http://localhost:8000/eureka/
+#
+#
+#spring.cloud.config.server.git.uri=https://github.com/xiajuwei/springCloudConfig
+#spring.cloud.config.server.git.searchPaths=config
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=xiajuwei@163.com
+#spring.cloud.config.server.git.password=xj13655675071
+
+
