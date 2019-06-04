@@ -1,70 +1,50 @@
-package com.study.springrabbitmq.receiver;
-
-import org.springframework.amqp.rabbit.annotation.*;
-import org.springframework.stereotype.Component;
-
-@Component
-
-public class Receiver {
-
-    @RabbitListener(queuesToDeclare = @Queue("first"))
-    @RabbitHandler
-    public void process1(String message) {
-
-        System.out.println("Receiver1: " + message);
-
-    }
-
-
-
-
-    @RabbitListener(bindings = @QueueBinding(
-            exchange = @Exchange("mySecond"),
-            key = "second-1",
-            value = @Queue("second")
-
-    ))
-    @RabbitHandler
-    public void process2(String message) throws InterruptedException {
-        System.out.println("Receiver2-1: " + message);
-
-    }
-
-
-    @RabbitListener(bindings = @QueueBinding(
-            exchange = @Exchange("mySecond"),
-            key = "second-2",
-            value = @Queue("second")
-
-    ))
-    @RabbitHandler
-    public void process3(String message) throws InterruptedException {
-        System.out.println("Receiver2-2: " + message);
-
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//package com.study.springrabbitmq.receiver;
+//
+//import lombok.extern.slf4j.Slf4j;
+//import org.springframework.amqp.rabbit.annotation.*;
+//import org.springframework.stereotype.Component;
+//
+//@Component
+//@Slf4j
+//public class Receiver {
+//
+//    @RabbitListener(queues = "queue")
+//    public void Receiver(String msg){
+//        log.info("Recieve:{}", msg);
+//    }
+//
+//    @RabbitListener(queues = "topic.message")
+//    public void process1(String msg) {
+//        log.info("Message:{}", msg);
+//    }
+//
+//    @RabbitListener(queues = "topic.messages")
+//    public void process2(String msgs) {
+//        log.info("Messages:{}", msgs);
+//    }
+//
+//
+//}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//

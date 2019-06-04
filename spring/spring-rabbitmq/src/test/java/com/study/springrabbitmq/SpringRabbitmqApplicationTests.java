@@ -27,17 +27,15 @@ public class SpringRabbitmqApplicationTests {
 
     @Test
     public void test2() {
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 1; i++) {
             sender.send2();
         }
 
     }
-   @Test
-    public void test3() {
-        for (int i = 0; i < 10000; i++) {
-            sender.send3();
-        }
 
+    @Test
+    public void test4() {
+        sender.send4();
     }
 
 

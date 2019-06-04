@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1b4d8a-5c29-43f8-ba0b-cd4eb87b6064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/RabbitSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/test/java/com/study/springrabbitmq/RabbitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/RabbitReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/RabbitReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/Receiver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
@@ -108,8 +111,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="405" />
+    <option name="y" value="39" />
     <option name="width" value="1178" />
     <option name="height" value="913" />
   </component>
@@ -195,12 +198,12 @@
       <workItem from="1559436893666" duration="1268000" />
       <workItem from="1559438293926" duration="2808000" />
       <workItem from="1559476015977" duration="4276000" />
-      <workItem from="1559548937298" duration="1484000" />
+      <workItem from="1559548937298" duration="2084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38294000" />
+    <option name="totallyTimeSpent" value="38894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
