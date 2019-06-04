@@ -19,11 +19,12 @@ public class RabbitReceiver {
 
     }
 
+
     /**
      * @param message
      */
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue,
+            value = @Queue("second"),
             exchange = @Exchange(value = "myExchange"),
             key = "second-1"))
     @RabbitHandler
@@ -34,7 +35,7 @@ public class RabbitReceiver {
     }
 
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue,
+            value = @Queue("second"),
             exchange = @Exchange(value = "myExchange", ignoreDeclarationExceptions = "true"),
             key = "second-2"))
     @RabbitHandler
@@ -66,6 +67,19 @@ public class RabbitReceiver {
         System.out.println("RabbitReceiver3_2: " + message);
 
     }
+
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(value = "four"),
+            exchange = @Exchange(value = "myKey", ignoreDeclarationExceptions = "true"),
+            key = {"red", "yellow"}
+    ))
+    @RabbitHandler
+    public void process4_1(String message) {
+
+        System.out.println("RabbitReceiver4_1: " + message);
+
+    }
+
 
 
 }

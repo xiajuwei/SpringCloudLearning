@@ -26,7 +26,7 @@ public class RabbitTest {
 
     @Test
     public void test2_1() {
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 10; i++) {
             rabbitSender.send2_1();
         }
 
@@ -44,6 +44,22 @@ public class RabbitTest {
     public void test3() {
         for (int i = 0; i < 1; i++) {
             rabbitSender.send3();
+        }
+
+    }
+
+    @Test
+    public void test4_1() {
+        for (int i = 0; i <1; i++) {
+            rabbitSender.send4_1();
+        }
+
+    }
+
+    @Test
+    public void test4_2() {
+        for (int i = 0; i < 1; i++) {
+            rabbitSender.send4_2();
         }
 
     }

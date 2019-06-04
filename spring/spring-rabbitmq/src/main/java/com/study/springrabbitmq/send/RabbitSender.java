@@ -44,5 +44,21 @@ public class RabbitSender {
 
     }
 
+    public void send4_1() {
+
+        String content = "send4_1 ==>" + LocalDateTime.now() + " red";
+        System.out.println(content);
+        rabbitTemplate.convertAndSend("myKey", "red", content);
+
+    }
+
+    public void send4_2() {
+
+        String content = "send4_2 ==>" + LocalDateTime.now() + " yellow";
+        System.out.println(content);
+        rabbitTemplate.convertAndSend("myKey", "yellow", content);
+
+    }
+
 
 }
