@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-nacos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos" target="1.8" />
+      <module name="alibaba-nacos (1)" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
@@ -20,6 +23,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-nacos" options="-parameters" />
+      <module name="alibaba-nacos (1)" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />

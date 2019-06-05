@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos/alibaba-nacos.iml" filepath="$PROJECT_DIR$/alibaba-nacos/alibaba-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
     </modules>
   </component>
