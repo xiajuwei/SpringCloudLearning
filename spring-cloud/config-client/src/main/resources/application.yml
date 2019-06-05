@@ -33,11 +33,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:8000/eureka/
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh
 
 test: test message
 

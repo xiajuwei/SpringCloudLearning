@@ -43,3 +43,11 @@ E
 eeureka-client/src/main/java/com/study/springcloud/eurekaclient/controller/EurekaClientController.java,7\6\76468fddb4f2199690367d6333513710eda85e34
 E
 eureka-client/pom.xml,1\9\1939d6bcd0e950a81413f4056362594c66c07fe2
+D
+eureka-feign/pom.xml,a\7\a7da305ef6e0757cff0786e463d3d0ee8b951465
+E
+config-server/pom.xml,a\2\a2f9618c8ad821b143a07a29a9805fcb0b2df470
+C
+eureka-zuul/pom.xml,3\6\36d3b321863d34a8e53c8c4a1cb6dc59bb673a06
+\
+,config-client/src/main/resources/logback.xml,0\e\0e958ff6b42c8333f78ce3c1cd4cfb2f9b62eb6c
