@@ -14,7 +14,6 @@ import java.util.List;
 public class ListTest {
     /**
      * ArrayList: 底层是使用数组实现，所以查询速度快，增删速度慢
-     *
      */
     @Test
     public void test1() throws InterruptedException {
@@ -46,6 +45,62 @@ public class ListTest {
         //方法引用
         list.forEach(System.out::println);
 
+
+    }
+
+    @Test
+    public void test2() {
+        int[] arr = {9, 4, 6, 10, 11, 20, 29, 56, 19, 50, 78, 43, 21, 34, 59, 8};
+        int temp;
+        int count = 0;
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+                count++;
+            }
+//            for (int a : arr) {
+//                System.out.println(a);
+//            }
+//            System.out.println("++++++++++++++++++++++++");
+
+
+        }
+
+        for (int a : arr) {
+            System.out.println(a);
+        }
+        System.out.println(count);
+
+    }
+
+
+    @Test
+    public void test3() {
+        int[] arr = {9, 4, 6, 10, 11, 20, 29, 56, 19, 50, 78, 43, 21, 34, 59, 8};
+        int temp;
+        int count = 0;
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                count++;
+
+            }
+
+
+        }
+        for (int a : arr) {
+            System.out.println(a);
+        }
+        System.out.println(count);
 
     }
 

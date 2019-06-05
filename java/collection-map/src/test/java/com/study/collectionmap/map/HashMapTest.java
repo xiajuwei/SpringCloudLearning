@@ -29,6 +29,7 @@ public class HashMapTest {
         map.put("小花", 22);
         map.put("小黑", 32);
         map.put("王五", 15);
+
         Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
         Iterator<Map.Entry<String, Integer>> it = entrySet.iterator();
         while (it.hasNext()) {
