@@ -36,11 +36,14 @@ public class RabbitSender {
 
     }
 
+    /**
+     * 广播模式下设置任意routingKey参数  可以为空
+     */
     public void send3() {
 
         String content = "send3 ==>" + LocalDateTime.now();
         System.out.println(content);
-        rabbitTemplate.convertAndSend("myFanout", "", content);
+        rabbitTemplate.convertAndSend("myFanout", "xxxxx", content);
 
     }
 

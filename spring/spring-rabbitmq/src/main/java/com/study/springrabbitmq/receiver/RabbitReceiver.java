@@ -1,5 +1,6 @@
 package com.study.springrabbitmq.receiver;
 
+import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -45,10 +46,14 @@ public class RabbitReceiver {
 
     }
 
-
+    /**
+     * 所有侦听器的同一交换机类型要一致
+     *
+     * @param message
+     */
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(value = "third-1"),
-            exchange = @Exchange(value = "myFanout", ignoreDeclarationExceptions = "true")
+            exchange = @Exchange(value = "myFanout", type = ExchangeTypes.FANOUT)
     ))
     @RabbitHandler
     public void process3_1(String message) {
@@ -59,7 +64,7 @@ public class RabbitReceiver {
 
     @RabbitListener(bindings = @QueueBinding(
             value = @Queue(value = "third-2"),
-            exchange = @Exchange(value = "myFanout", ignoreDeclarationExceptions = "true")
+            exchange = @Exchange(value = "myFanout", type = ExchangeTypes.FANOUT, ignoreDeclarationExceptions = "true")
     ))
     @RabbitHandler
     public void process3_2(String message) {
@@ -79,7 +84,6 @@ public class RabbitReceiver {
         System.out.println("RabbitReceiver4_1: " + message);
 
     }
-
 
 
 }

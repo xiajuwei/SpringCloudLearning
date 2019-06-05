@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1b4d8a-5c29-43f8-ba0b-cd4eb87b6064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/config/SenderConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/MyReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/test/java/com/study/springrabbitmq/SpringRabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/test/java/com/study/springrabbitmq/SpringRabbitmqApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/RabbitReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/RabbitReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/RabbitSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/send/RabbitSender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
@@ -217,6 +213,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
