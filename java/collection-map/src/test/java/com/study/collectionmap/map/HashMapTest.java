@@ -43,5 +43,14 @@ public class HashMapTest {
 
     }
 
+    @Test
+    public void test2(){
+        int n = 10 - 1;
+        n |= n + 1;
+        System.out.println(n);
+
+    }
+
+
 
 }
