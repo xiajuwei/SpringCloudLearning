@@ -51,3 +51,5 @@ C
 eureka-zuul/pom.xml,3\6\36d3b321863d34a8e53c8c4a1cb6dc59bb673a06
 \
 ,config-client/src/main/resources/logback.xml,0\e\0e958ff6b42c8333f78ce3c1cd4cfb2f9b62eb6c
+F
+config-server/mvnw.cmd,0\9\09d6c851d3b5e0951a6f90053fc57fac349c8d8e

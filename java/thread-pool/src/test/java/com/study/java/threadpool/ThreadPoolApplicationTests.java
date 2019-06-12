@@ -60,6 +60,10 @@ public class ThreadPoolApplicationTests {
 
         }
         executorService.shutdown();
+        //每隔一秒钟检查一次是否执行完毕（
+        while (!executorService.awaitTermination(1, TimeUnit.SECONDS)) {
+            System.out.println("线程还在执行");
+        }
 
 
     }

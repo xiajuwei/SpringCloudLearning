@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1b4d8a-5c29-43f8-ba0b-cd4eb87b6064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/adapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/adapter/VoltageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/decorator/Bread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/decorator/Cream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/decorator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/decorator/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/Introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/LaoLi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/MeiMei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/XiaoWang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/singleton/Singleton4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/strategy/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/strategy/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/strategy/CommonBuyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/strategy/SuperVipBuyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/strategy/VipBuyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/adapter/AdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/factory/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/observer/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/strategy/StrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/chain/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/PersonA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/PersonB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/chain/ChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/design-patterns/src/test/java/com/study/java/designpatterns/observer/pull/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
@@ -51,81 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/mvnw.cmd">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/springcloud/eurekaserver/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-              <folding>
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/controller/ConfigClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/ConfigClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="334">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -138,6 +52,15 @@
               <folding>
                 <element signature="e#421#422#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -214,11 +137,11 @@
         <option value="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-feign/src/main/java/com/study/springcloud/eurekafeign/controller/EurekaFeignController.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/controller/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-client/target/classes/application.yml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/target/classes/application.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -233,11 +156,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="config-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="config-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1229" />
@@ -249,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,16 +190,10 @@
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -276,7 +204,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../baodeWork/boss-pay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/design-patterns" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -312,55 +240,52 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
-    <configuration name="AlibabaNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="alibaba-nacos" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.alibabanacos.AlibabaNacosApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.configclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.configclient.ConfigClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.configserver.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud.eurekaclient.EurekaClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-feign" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud.eurekafeign.EurekaFeignApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.springcloud.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud.eurekaserver.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -384,11 +309,13 @@
       <workItem from="1559548937298" duration="5358000" />
       <workItem from="1559713210049" duration="15073000" />
       <workItem from="1560215940176" duration="1854000" />
+      <workItem from="1560308801836" duration="2475000" />
+      <workItem from="1560311615434" duration="5714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59095000" />
+    <option name="totallyTimeSpent" value="67284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,9 +327,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.20202559" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" sideWeight="0.50180507" side_tool="true" weight="0.18923241" />
       <window_info id="UI Designer" order="3" />
@@ -413,7 +340,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47180045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47505423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.55856836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,14 +354,14 @@
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.19956616" />
+      <window_info anchor="bottom" id="Version Control" order="16" visible="true" weight="0.27006507" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12846482" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14712153" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -451,13 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -545,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/study/springcloud/eurekaserver/EurekaServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -586,13 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -638,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -658,16 +557,6 @@
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="e#629#630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/study/springcloud/eurekaclient/EurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -718,11 +593,50 @@
     <entry file="file://$PROJECT_DIR$/config-server/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/springcloud/eurekaserver/EurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-peer1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/study/springcloud/eurekaclient/EurekaClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/springcloud/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
@@ -730,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
@@ -741,19 +655,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/study/configclient/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="119">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
-            <element signature="e#260#261#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/config-client/target/classes/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="253">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -767,10 +687,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>

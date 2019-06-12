@@ -1,27 +1,2 @@
 
-psquid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(§’Èå
-usquid:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(«²Äÿÿÿÿÿ
-usquid:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(—¤Îşÿÿÿÿ
-usquid:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(—¤Îşÿÿÿÿ
-bsquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(³Âşî
-bsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(³Âşî
-T
-squid:S106 "9Replace this use of System.out or System.err by a logger.(ÄˆÀÜúÿÿÿÿ
-O
-squid:S106#"9Replace this use of System.out or System.err by a logger.(‡ÀÍı
-T
-squid:S106&"9Replace this use of System.out or System.err by a logger.(Ñ±°Òÿÿÿÿÿ
-O
-squid:S1062"9Replace this use of System.out or System.err by a logger.(ç’¤™
-N
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ƒÚáB
-T
-squid:S106I"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
-N
-squid:S106L"9Replace this use of System.out or System.err by a logger.(ƒÚáB
-T
-squid:S106]"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
-T
-squid:S106m"9Replace this use of System.out or System.err by a logger.(­˜¸Ûúÿÿÿÿ
-Gsquid:S1481T"+Remove this unused "person" local variable.(Ö‚í°ûÿÿÿÿ
-Vsquid:S1854T":Remove this useless assignment to local variable "person".(Ö‚í°ûÿÿÿÿ
+Gsquid:S2925H"$Remove this use of "Thread.sleep()".(¤ù»ÿÿÿÿÿ8¢ÊüË´-
