@@ -1,13 +1,16 @@
 package com.study.collectionmap.collection.list;
 
+import lombok.Data;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.ToIntFunction;
+import java.util.stream.Stream;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -55,7 +58,7 @@ public class ListTest {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
 
-            for (int j = i+1; j < arr.length; j++) {
+            for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {
                     temp = arr[i];
                     arr[i] = arr[j];
@@ -104,5 +107,52 @@ public class ListTest {
 
     }
 
+    @Test
+    public void test4() {
+        List<String> list = Arrays.asList("d", "b", "a", "c", "a", "a");
+
+
+//        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
+////        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
+//        Optional max = list.stream().max(Comparator.comparing(String::hashCode));
+//
+//        System.out.println(String.format("min: %s,max: %s", min, max));
+
+//        Stream<String> stream = list.stream().distinct();
+//
+//        stream.forEach(s -> System.out.println(s));
+        Stream stream = list.stream().filter(s -> s.equals("a"));
+        stream.forEach(s-> System.out.println(s));
+
+
+
+    }
+
+    @Test
+    public void test5() {
+        List<People> list = Arrays.asList(new People("张三", 20), new People("李四", 21), new People("王五", 23));
+//        list.forEach(people -> System.out.println(people));
+
+//        Optional max = list.stream().max((p1, p2) -> p1.getAge() - p2.getAge());
+//        System.out.println(max);
+//        Optional max = list.stream().max(Comparator.comparing(People::getAge));
+//        System.out.println(max);
+
+
+    }
+
 
 }
+
+@Data
+class People {
+
+    private String name;
+    private Integer age;
+
+    public People(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+

@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e351064f-9f75-46cf-8bae-fba7ab1e0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/chain/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/chain/ConcreteHandlerZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/PersonA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/PersonB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/com/study/java/designpatterns/observer/pull/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/test/java/com/study/java/designpatterns/chain/ChainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-patterns/src/test/java/com/study/java/designpatterns/observer/pull/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-map/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection-map/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud/eureka-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/collection-map/target/" />
     <ignored path="$PROJECT_DIR$/jdk8/target/" />
@@ -24,6 +17,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -32,20 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/set/HashSetTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="148" selection-start-line="148" selection-end-line="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/ConcurrentHashMapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+            <state relative-caret-position="329">
+              <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,56 +52,106 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="2610" column="23" selection-start-line="2610" selection-start-column="23" selection-end-line="2610" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection-map/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdk8/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="21" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7327">
+              <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
               <folding>
-                <element signature="e#32334#32335#0" expanded="true" />
-                <element signature="e#32385#32386#0" expanded="true" />
-                <element signature="e#39094#39095#0" expanded="true" />
-                <element signature="e#39146#39147#0" expanded="true" />
-                <element signature="e#44347#44348#0" expanded="true" />
-                <element signature="e#44395#44396#0" expanded="true" />
-                <element signature="e#65240#65241#0" expanded="true" />
-                <element signature="e#65287#65288#0" expanded="true" />
+                <element signature="e#2837#2838#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/LongStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="7123">
+              <caret line="466" column="9" selection-start-line="466" selection-start-column="9" selection-end-line="466" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="1463" column="19" selection-start-line="1463" selection-start-column="19" selection-end-line="1463" selection-end-column="19" />
+            <state relative-caret-position="2329">
+              <caret line="183" column="61" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-pool/src/main/java/com/study/java/threadpool/ThreadPoolApplication.java">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="83419">
+              <caret line="4994" column="41" selection-start-line="4994" selection-start-column="35" selection-end-line="4994" selection-end-column="41" />
+              <folding>
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#5098#5099#0" expanded="true" />
+                <element signature="e#6903#6904#0" expanded="true" />
+                <element signature="e#6974#6975#0" expanded="true" />
+                <element signature="e#8781#8782#0" expanded="true" />
+                <element signature="e#8852#8853#0" expanded="true" />
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+                <element signature="e#177353#177354#0" expanded="true" />
+                <element signature="e#177410#177411#0" expanded="true" />
+                <element signature="e#223144#223145#0" expanded="true" />
+                <element signature="e#223197#223198#0" expanded="true" />
+                <element signature="e#224394#224395#0" expanded="true" />
+                <element signature="e#224447#224448#0" expanded="true" />
+                <element signature="e#225606#225607#0" expanded="true" />
+                <element signature="e#225659#225660#0" expanded="true" />
+                <element signature="e#226830#226831#0" expanded="true" />
+                <element signature="e#226883#226884#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/StreamSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="3026">
+              <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -125,6 +173,7 @@
       <find>size</find>
       <find>modCount</find>
       <find>TREEIFY_THRESHOLD</find>
+      <find>mapto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,10 +193,11 @@
         <option value="$PROJECT_DIR$/jdk8/src/test/java/com/study/jdk8/NotNullTest.java" />
         <option value="$PROJECT_DIR$/jdk8/src/test/java/com/study/jdk8/db/Student.java" />
         <option value="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" />
         <option value="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/set/HashSetTest.java" />
         <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" />
         <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/collection-map/pom.xml" />
+        <option value="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" />
       </list>
     </option>
   </component>
@@ -166,7 +216,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1229" />
@@ -178,14 +228,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionmap" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionmap" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
@@ -197,58 +301,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,40 +337,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashMapTest.test2">
-    <configuration name="HashMapTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection-map" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.collectionmap.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.study.collectionmap.map" />
-      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.map.HashMapTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection-map" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.collectionmap.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.study.collectionmap.map" />
-      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.map.HashMapTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListTest.test4">
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collection-map" />
       <extension name="coverage">
         <pattern>
@@ -322,7 +348,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
       <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collection-map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.collectionmap.collection.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
+      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,17 +385,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotNullTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdk8" />
+    <configuration name="ListTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collection-map" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.jdk8.*" />
+          <option name="PATTERN" value="com.study.collectionmap.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.study.jdk8" />
-      <option name="MAIN_CLASS_NAME" value="com.study.jdk8.NotNullTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
+      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collection-map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.collectionmap.collection.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
+      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -390,11 +447,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HashMapTest.test2" />
-        <item itemvalue="JUnit.NotNullTest.test1" />
+        <item itemvalue="JUnit.ListTest.test4" />
+        <item itemvalue="JUnit.ListTest.test5" />
+        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.ListTest.test1" />
         <item itemvalue="JUnit.ListTest.test3" />
-        <item itemvalue="JUnit.ListTest.test2" />
-        <item itemvalue="JUnit.HashMapTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -412,63 +469,66 @@
       <workItem from="1559706002143" duration="1862000" />
       <workItem from="1559713210049" duration="11725000" />
       <workItem from="1560215936553" duration="13012000" />
-      <workItem from="1560332341794" duration="3571000" />
+      <workItem from="1560332341794" duration="4881000" />
+      <workItem from="1560389686377" duration="8066000" />
+      <workItem from="1560476851124" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NotNullTest_test1 - 2019.06.05 at 18h 15m 27s.xml">
-      <configuration name="NotNullTest.test1" configurationId="JUnit" />
+    <history-entry file="ListTest_test5 - 2019.06.13 at 19h 06m 54s.xml">
+      <configuration name="ListTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NotNullTest_test1 - 2019.06.05 at 18h 16m 25s.xml">
-      <configuration name="NotNullTest.test1" configurationId="JUnit" />
+    <history-entry file="ListTest_test5 - 2019.06.13 at 19h 07m 59s.xml">
+      <configuration name="ListTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NotNullTest_test1 - 2019.06.11 at 11h 29m 20s.xml">
-      <configuration name="NotNullTest.test1" configurationId="JUnit" />
+    <history-entry file="ListTest - 2019.06.13 at 19h 11m 43s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NotNullTest_test1 - 2019.06.11 at 11h 29m 51s.xml">
-      <configuration name="NotNullTest.test1" configurationId="JUnit" />
+    <history-entry file="ListTest_test5 - 2019.06.13 at 19h 11m 48s.xml">
+      <configuration name="ListTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 22m 48s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test5 - 2019.06.13 at 19h 12m 12s.xml">
+      <configuration name="ListTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 23m 08s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test5 - 2019.06.13 at 19h 13m 10s.xml">
+      <configuration name="ListTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 23m 20s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test4 - 2019.06.13 at 19h 17m 46s.xml">
+      <configuration name="ListTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 23m 32s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test4 - 2019.06.13 at 19h 40m 24s.xml">
+      <configuration name="ListTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 23m 43s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test4 - 2019.06.13 at 19h 43m 28s.xml">
+      <configuration name="ListTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashMapTest_test2 - 2019.06.11 at 18h 23m 58s.xml">
-      <configuration name="HashMapTest.test2" configurationId="JUnit" />
+    <history-entry file="ListTest_test4 - 2019.06.13 at 19h 52m 14s.xml">
+      <configuration name="ListTest.test4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30256000" />
+    <option name="totallyTimeSpent" value="40230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1229" height="905" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.29934925" visible="true" weight="0.17590618" />
-      <window_info id="Structure" order="1" sideWeight="0.70065075" side_tool="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.29767442" visible="true" weight="0.21984603" />
+      <window_info id="Structure" order="1" sideWeight="0.7023256" side_tool="true" weight="0.27771854" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50180507" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4186551" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39479393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3362256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.26138827" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.21691974" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.15726681" />
@@ -649,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdk8/src/test/java/com/study/jdk8/db/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -734,24 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-          <folding>
-            <element signature="e#33104#33105#0" expanded="true" />
-            <element signature="e#33178#33179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -759,62 +794,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="3811" column="27" selection-start-line="3811" selection-start-column="22" selection-end-line="3811" selection-end-column="27" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-            <element signature="e#177353#177354#0" expanded="true" />
-            <element signature="e#177410#177411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolTest.java" />
     <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/set/HashSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="2295">
           <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-pool/src/main/java/com/study/java/threadpool/ThreadPoolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/ConcurrentHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="77" lean-forward="true" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+        <state relative-caret-position="238">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="1463" column="19" selection-start-line="1463" selection-start-column="19" selection-end-line="1463" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="42806">
           <caret line="2610" column="23" selection-start-line="2610" selection-start-column="23" selection-end-line="2610" selection-end-column="23" />
           <folding>
             <element signature="e#32334#32335#0" expanded="true" />
@@ -829,20 +829,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolTest.java">
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="23783">
+          <caret line="1463" column="19" selection-start-line="1463" selection-start-column="19" selection-end-line="1463" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-pool/src/main/java/com/study/java/threadpool/ThreadPoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/map/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding>
+            <element signature="e#33104#33105#0" expanded="true" />
+            <element signature="e#33178#33179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java">
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection-map/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk8/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="21" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7327">
+          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/LongStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7123">
+          <caret line="466" column="9" selection-start-line="466" selection-start-column="9" selection-end-line="466" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="183" column="61" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83419">
+          <caret line="4994" column="41" selection-start-line="4994" selection-start-column="35" selection-end-line="4994" selection-end-column="41" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+            <element signature="e#6903#6904#0" expanded="true" />
+            <element signature="e#6974#6975#0" expanded="true" />
+            <element signature="e#8781#8782#0" expanded="true" />
+            <element signature="e#8852#8853#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+            <element signature="e#223144#223145#0" expanded="true" />
+            <element signature="e#223197#223198#0" expanded="true" />
+            <element signature="e#224394#224395#0" expanded="true" />
+            <element signature="e#224447#224448#0" expanded="true" />
+            <element signature="e#225606#225607#0" expanded="true" />
+            <element signature="e#225659#225660#0" expanded="true" />
+            <element signature="e#226830#226831#0" expanded="true" />
+            <element signature="e#226883#226884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/StreamSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
         </state>
       </provider>
     </entry>
