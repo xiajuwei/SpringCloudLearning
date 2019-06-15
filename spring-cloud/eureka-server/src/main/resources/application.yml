@@ -19,7 +19,7 @@ eureka:
     #显示服务ip地址
     preferIpAddress: true
     #获取服务的ip和端口
-    instanceId: ${eureka.instance.hostname}:${server.port}
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     #配置不将自己注册到eureka注册中心
     register-with-eureka: false
