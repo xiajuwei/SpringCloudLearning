@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e351064f-9f75-46cf-8bae-fba7ab1e0f74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/collection-map/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection-map/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud/eureka-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud/eureka-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-redis/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/collection-map/target/" />
     <ignored path="$PROJECT_DIR$/jdk8/target/" />
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+            <state relative-caret-position="380">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="304">
               <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
             </state>
           </provider>
@@ -63,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collection-map/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="703">
               <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
@@ -72,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jdk8/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="912">
               <caret line="48" column="21" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
@@ -81,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7327">
+            <state relative-caret-position="8189">
               <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
             </state>
           </provider>
@@ -90,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
+            <state relative-caret-position="1387">
               <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
               <folding>
                 <element signature="e#2837#2838#0" expanded="true" />
@@ -103,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/LongStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7123">
+            <state relative-caret-position="7961">
               <caret line="466" column="9" selection-start-line="466" selection-start-column="9" selection-end-line="466" selection-end-column="9" />
             </state>
           </provider>
@@ -112,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
+            <state relative-caret-position="2603">
               <caret line="183" column="61" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="61" />
             </state>
           </provider>
@@ -121,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83419">
+            <state relative-caret-position="93233">
               <caret line="4994" column="41" selection-start-line="4994" selection-start-column="35" selection-end-line="4994" selection-end-column="41" />
               <folding>
                 <element signature="e#5027#5028#0" expanded="true" />
@@ -150,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/StreamSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3026">
+            <state relative-caret-position="3382">
               <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
             </state>
           </provider>
@@ -204,7 +202,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\ideaWork\baodeWork\repository" />
+        <option name="localRepository" value="E:\ideaWork\repository" />
         <option name="mavenHome" value="D:/java/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\java\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -216,11 +214,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1229" />
-    <option name="height" value="905" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="134" />
+    <option name="y" value="4" />
+    <option name="width" value="1178" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +294,18 @@
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection-map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionmap" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="ListTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,20 +317,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -472,6 +482,7 @@
       <workItem from="1560332341794" duration="4881000" />
       <workItem from="1560389686377" duration="8066000" />
       <workItem from="1560476851124" duration="598000" />
+      <workItem from="1560609625973" duration="112000" />
     </task>
     <servers />
   </component>
@@ -508,13 +519,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40230000" />
+    <option name="totallyTimeSpent" value="40342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1229" height="905" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.29767442" visible="true" weight="0.21984603" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.29767442" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" sideWeight="0.7023256" side_tool="true" weight="0.27771854" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -538,11 +551,13 @@
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.329718" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.14179105" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.14145234" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32995737" />
@@ -660,13 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../baodeWork/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar!/lombok/NonNull.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../baodeWork/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar!/lombok/NonNull.class" />
     <entry file="file://$PROJECT_DIR$/jdk8/src/test/java/com/study/jdk8/Jdk8ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -674,13 +683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../baodeWork/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14-sources.jar!/lombok/NonNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../baodeWork/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14-sources.jar!/lombok/NonNull.java" />
     <entry file="jar://D:/java/jdk8/src.zip!/java/lang/annotation/Target.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -870,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="122" column="53" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+        <state relative-caret-position="380">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,35 +883,35 @@
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="304">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collection-map/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="703">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdk8/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="912">
           <caret line="48" column="21" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7327">
+        <state relative-caret-position="8189">
           <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
+        <state relative-caret-position="1387">
           <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
           <folding>
             <element signature="e#2837#2838#0" expanded="true" />
@@ -919,21 +922,21 @@
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/LongStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7123">
+        <state relative-caret-position="7961">
           <caret line="466" column="9" selection-start-line="466" selection-start-column="9" selection-end-line="466" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
+        <state relative-caret-position="2603">
           <caret line="183" column="61" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83419">
+        <state relative-caret-position="93233">
           <caret line="4994" column="41" selection-start-line="4994" selection-start-column="35" selection-end-line="4994" selection-end-column="41" />
           <folding>
             <element signature="e#5027#5028#0" expanded="true" />
@@ -960,7 +963,7 @@
     </entry>
     <entry file="jar://D:/java/jdk8/src.zip!/java/util/stream/StreamSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
+        <state relative-caret-position="3382">
           <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
         </state>
       </provider>
