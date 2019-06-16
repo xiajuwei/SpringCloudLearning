@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e351064f-9f75-46cf-8bae-fba7ab1e0f74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/thread-pool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-pool/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/CountDownLatchTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/collection-map/target/" />
     <ignored path="$PROJECT_DIR$/jdk8/target/" />
@@ -37,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-pool/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="247">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -49,11 +48,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="62" />
+            <state relative-caret-position="140">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/CountDownLatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/Executors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -99,8 +119,9 @@
         <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/collection-map/pom.xml" />
         <option value="$PROJECT_DIR$/collection-map/src/test/java/com/study/collectionmap/collection/list/ListTest.java" />
-        <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" />
         <option value="$PROJECT_DIR$/thread-pool/pom.xml" />
+        <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java" />
+        <option value="$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/CountDownLatchTest.java" />
       </list>
     </option>
   </component>
@@ -229,7 +250,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.test4">
+  <component name="RunManager" selected="Application.CountDownLatchTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.java.threadpool.CountDownLatchTest" />
+      <module name="thread-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.java.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collection-map" />
       <extension name="coverage">
@@ -256,22 +290,6 @@
       <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
       <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collection-map" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.collectionmap.collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.study.collectionmap.collection.list" />
-      <option name="MAIN_CLASS_NAME" value="com.study.collectionmap.collection.list.ListTest" />
-      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="JUnit.ListTest.test4" />
         <item itemvalue="JUnit.ListTest.test5" />
         <item itemvalue="JUnit.ListTest" />
         <item itemvalue="JUnit.ListTest.test1" />
-        <item itemvalue="JUnit.ListTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +383,7 @@
       <workItem from="1560389686377" duration="8066000" />
       <workItem from="1560476851124" duration="598000" />
       <workItem from="1560609625973" duration="112000" />
-      <workItem from="1560696819526" duration="528000" />
+      <workItem from="1560696819526" duration="952000" />
     </task>
     <servers />
   </component>
@@ -402,7 +420,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40870000" />
+    <option name="totallyTimeSpent" value="41294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -418,16 +436,16 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11620294" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3362256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.21603929" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.40589198" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15726681" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22585924" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="14" />
@@ -844,20 +862,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thread-pool/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/ThreadPoolApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="140">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-pool/pom.xml">
+    <entry file="jar://D:/java/jdk8/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="149">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-pool/src/test/java/com/study/java/threadpool/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
