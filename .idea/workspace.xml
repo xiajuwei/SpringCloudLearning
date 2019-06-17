@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1766d0da-1a8e-4a89-ac58-9c8e049ca323" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/NIOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/ZgTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/io-nio/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/io-nio/target/classes/com/study/java/ionio/IoNioApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/io-nio/target/test-classes/com/study/java/ionio/IoNioApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/io-nio/target/test-classes/com/study/java/ionio/NIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/NIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/NIOTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-cloud/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/java/collection-map/target/" />
@@ -500,10 +496,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28216000" />
+    <option name="totallyTimeSpent" value="28736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49607843" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" sideWeight="0.50392157" side_tool="true" weight="0.27836612" />
