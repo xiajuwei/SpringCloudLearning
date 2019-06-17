@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="194f574b-58cd-422d-8048-ce5c9da2ad50" name="Default Changelist" comment="" />
+    <list default="true" id="1766d0da-1a8e-4a89-ac58-9c8e049ca323" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/NIOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/src/test/java/com/study/java/ionio/ZgTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/target/classes/com/study/java/ionio/IoNioApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/target/test-classes/com/study/java/ionio/IoNioApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/io-nio/target/test-classes/com/study/java/ionio/NIOTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/spring-cloud/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/java/collection-map/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud/config-server/target/" />
@@ -27,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-redis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring/spring-rabbitmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="408">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -173,17 +180,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="134" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="537" />
+    <option name="y" value="36" />
     <option name="width" value="1178" />
-    <option name="height" value="788" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,13 +207,20 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -485,13 +500,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27866000" />
+    <option name="totallyTimeSpent" value="28216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49607843" visible="true" weight="0.25113463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49607843" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" sideWeight="0.50392157" side_tool="true" weight="0.27836612" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -512,12 +526,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.44353518" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.44251627" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.198036" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.20196672" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20196672" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -528,6 +542,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/java/collection-map/src/test/java/com/study/collectionmap/map/ConcurrentHashMapTest.java">
@@ -690,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/spring-rabbitmq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -716,20 +756,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/amqp/spring-rabbit/2.1.6.RELEASE/spring-rabbit-2.1.6.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/Exchange.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/amqp/spring-rabbit/2.1.6.RELEASE/spring-rabbit-2.1.6.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/Exchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/amqp/spring-rabbit/2.1.6.RELEASE/spring-rabbit-2.1.6.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/Exchange.class" />
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/amqp/spring-rabbit/2.1.6.RELEASE/spring-rabbit-2.1.6.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/Exchange.java" />
     <entry file="file://$PROJECT_DIR$/spring-cloud/config-client/src/main/java/com/study/configclient/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
