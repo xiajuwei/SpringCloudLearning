@@ -1,0 +1,11 @@
+
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÿ¡Óûÿÿÿÿ8¹î²—·-
+nsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(òÖÞüÿÿÿÿ8¹î²—·-
+nsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ÙõÄíÿÿÿÿÿ8¹î²—·-
+nsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(¦›¸éÿÿÿÿÿ8¹î²—·-
+V
+squid:S106C"9Replace this use of System.out or System.err by a logger.(µÈ§Î8¹î²—·-
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(â’ª‘8¹î²—·-
+Isquid:S1481;"+Remove this unused "future" local variable.(þ©€ö8¹î²—·-
+Xsquid:S1854;":Remove this useless assignment to local variable "future".(þ©€ö8¹î²—·-

@@ -4,6 +4,8 @@ import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
+import java.util.concurrent.TimeUnit;
+
 @Component
 public class RabbitReceiver {
 
@@ -15,6 +17,13 @@ public class RabbitReceiver {
     @RabbitListener(queuesToDeclare = @Queue(name = "first"))
     @RabbitHandler
     public void process1(String message) {
+
+        try {
+            //处理完任务后应答给rabbitmq 删除queue
+            TimeUnit.MINUTES.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.out.println("RabbitReceiver1: " + message);
 

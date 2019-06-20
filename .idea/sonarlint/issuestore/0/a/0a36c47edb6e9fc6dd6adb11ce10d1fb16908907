@@ -1,0 +1,18 @@
+
+O
+squid:S106H"9Replace this use of System.out or System.err by a logger.(Ñˆ«ª
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ÁË§
+ksquid:S00100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ïËûÿÿÿÿ
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(Óñ­ùùÿÿÿÿ
+T
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ıøÿÖùÿÿÿÿ
+fsquid:S00100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÚÃ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(¢­Ò
+ksquid:S00100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Í¼­üÿÿÿÿ
+fsquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëäÍ­
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ö¨Ïµ
+fsquid:S00100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÎÉø
