@@ -13,10 +13,10 @@
         <option value="$PROJECT_DIR$/spring-cloud/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-redis/pom.xml" />
         <option value="$PROJECT_DIR$/java/jdk8/pom.xml" />
         <option value="$PROJECT_DIR$/spring/spring-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/java/io-nio/pom.xml" />
+        <option value="$PROJECT_DIR$/java/thread-pool/pom.xml" />
       </list>
     </option>
   </component>

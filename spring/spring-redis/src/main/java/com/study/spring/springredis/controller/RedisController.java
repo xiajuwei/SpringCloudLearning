@@ -23,7 +23,7 @@ public class RedisController {
             boolean b1 = lock.tryLock(10, TimeUnit.SECONDS);
             log.info("b1 is :{}", b1);
 
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.MINUTES.sleep(2);
 
         } catch (InterruptedException e) {
             e.printStackTrace();
