@@ -112,16 +112,16 @@ public class ListTest {
         List<String> list = Arrays.asList("d", "b", "a", "c", "a", "a");
 
 
-//        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
-////        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
-//        Optional max = list.stream().max(Comparator.comparing(String::hashCode));
-//
-//        System.out.println(String.format("min: %s,max: %s", min, max));
+        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
+//        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
+        Optional max = list.stream().max(Comparator.comparing(String::hashCode));
 
-//        Stream<String> stream = list.stream().distinct();
-//
-//        stream.forEach(s -> System.out.println(s));
-        Stream stream = list.stream().filter(s -> s.equals("a"));
+        System.out.println(String.format("min: %s,max: %s", min, max));
+
+        Stream<String> stream = list.stream().distinct();
+
+        stream.forEach(s -> System.out.println(s));
+//        Stream stream = list.stream().filter(s -> !s.equals("a"));
         stream.forEach(s-> System.out.println(s));
 
 

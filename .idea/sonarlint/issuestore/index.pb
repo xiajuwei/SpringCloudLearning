@@ -61,7 +61,3 @@ espring-cloud/eureka-feign/src/main/java/com/study/springcloud/eurekafeign/Eurek
 Yjava/collection-map/src/test/java/com/study/collectionmap/collection/set/TreeSetTest.java,f\3\f3e0fe74fdfc63d44bcae7600859c015bfcde8d2
 ä
 Zspring/spring-rabbitmq/src/main/java/com/study/springrabbitmq/receiver/RabbitReceiver.java,0\a\0a36c47edb6e9fc6dd6adb11ce10d1fb16908907
-Å
-Qspring-redis/src/test/java/com/study/springredis/SpringRedisApplicationTests.java,2\e\2e794e696c5fe3fcfe01c432cc9aad1ec446cf77
-r
-Bspring-redis/src/main/java/com/study/springredis/Dao/RedisDao.java,1\f\1fbe6274d85ed5b9092dcf6451db5c0bad9d8a20
