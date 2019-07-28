@@ -1,13 +1,15 @@
 package com.study.springrabbitmq.send;
 
 import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
 
 @Component
-public class RabbitSender {
+public class RabbitSender implements RabbitTemplate.ConfirmCallback {
 
     @Resource
     private AmqpTemplate rabbitTemplate;
@@ -63,5 +65,10 @@ public class RabbitSender {
 
     }
 
-
+    @Override
+    public void confirm(CorrelationData correlationData, boolean ack, String cause) {
+        System.out.println("消息唯一标识：" + correlationData);
+        System.out.println("确认结果：" + ack);
+        System.out.println("失败原因：" + cause);
+    }
 }

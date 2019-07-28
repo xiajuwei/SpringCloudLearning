@@ -121,6 +121,7 @@ public class ListTest {
 //        list1.forEach(s-> System.out.println(s));
 //        System.out.println(list1.size());
 
+<<<<<<< HEAD
 //        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
 ////        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
 //        Optional max = list.stream().max(Comparator.comparing(String::hashCode));
@@ -135,6 +136,20 @@ public class ListTest {
 //        stream1.forEach(s -> System.out.println(s));
 //        Stream stream1 = list.stream().sorted();
 //        stream1.forEach(s -> System.out.println(s));
+=======
+        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
+//        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
+        Optional max = list.stream().max(Comparator.comparing(String::hashCode));
+
+        System.out.println(String.format("min: %s,max: %s", min, max));
+
+        Stream<String> stream = list.stream().distinct();
+
+        stream.forEach(s -> System.out.println(s));
+//        Stream stream = list.stream().filter(s -> !s.equals("a"));
+        stream.forEach(s-> System.out.println(s));
+
+>>>>>>> 10101a4ca592070cc98740dd9b51164f18acf464
 
 
     }

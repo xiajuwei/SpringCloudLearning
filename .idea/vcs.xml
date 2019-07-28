@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dubbo-admin/incubator-dubbo-ops" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot-dubbo" vcs="Git" />
   </component>
 </project>

@@ -4,3 +4,5 @@ spring:
     port: 5672
     username: guest
     password: guest
+    #消息确认
+    publisher-confirms: true
