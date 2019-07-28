@@ -52,8 +52,8 @@ public class NIOTest {
         RandomAccessFile writerFile = null;
 
         try {
-            readerFile = new RandomAccessFile("F:/迅雷下载/deepin-15.10.1-amd64.iso", "rw");
-            writerFile = new RandomAccessFile("F:/迅雷下载/deepin.iso", "rw");
+            readerFile = new RandomAccessFile("F:/windows_10_x64.iso", "rw");
+            writerFile = new RandomAccessFile("F:/windows_10_x64_copy.iso", "rw");
             //通道
             FileChannel readerChannel = readerFile.getChannel();
             FileChannel writerChannel = writerFile.getChannel();
@@ -95,14 +95,14 @@ public class NIOTest {
         RandomAccessFile writerFile = null;
 
         try {
-            readerFile = new RandomAccessFile("F:/迅雷下载/deepin-15.10.1-amd64.iso", "rw");
-            writerFile = new RandomAccessFile("F:/迅雷下载/deepin.iso", "rw");
+            readerFile = new RandomAccessFile("F:/windows_10_x64.iso", "rw");
+            writerFile = new RandomAccessFile("F:/windows_10_x64_copy.iso", "rw");
             long start = System.currentTimeMillis();
             //通道
             FileChannel readerChannel = readerFile.getChannel();
             FileChannel writerChannel = writerFile.getChannel();
             //将文件直接映射到内存（这里的内存指的是虚拟内存，并不是物理内存）
-            ByteBuffer buffer = readerChannel.map(FileChannel.MapMode.READ_WRITE, 0, 1024);
+            MappedByteBuffer buffer = readerChannel.map(FileChannel.MapMode.READ_WRITE, 0, Integer.MAX_VALUE);
             int count = readerChannel.read(buffer);
             while (count != -1) {
                 //position 设回0，limit 设成position 的值

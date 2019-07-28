@@ -10,6 +10,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @SpringBootTest
@@ -110,7 +111,15 @@ public class ListTest {
     @Test
     public void test4() {
         List<String> list = Arrays.asList("d", "b", "a", "c", "a", "a");
+        int[] arr = {9, 4, 6, 10, 11, 20, 29, 56, 19, 50, 78, 43, 21, 34, 59, 8};
+        Boolean exist = false;
+        Stream<String> stream = list.stream().filter(s -> s.equals("a"));
+        Collection<String> collection = stream.collect(Collectors.toList());
+        collection.forEach(s-> System.out.println(s));
 
+//        List list1 = Arrays.asList(arr);
+//        list1.forEach(s-> System.out.println(s));
+//        System.out.println(list1.size());
 
 //        Optional min = list.stream().min(Comparator.comparing(Function.identity()));
 ////        Optional max = list.stream().max((s1, s2) -> s2.compareTo(s1));
@@ -121,9 +130,11 @@ public class ListTest {
 //        Stream<String> stream = list.stream().distinct();
 //
 //        stream.forEach(s -> System.out.println(s));
-        Stream stream = list.stream().filter(s -> s.equals("a"));
-        stream.forEach(s-> System.out.println(s));
-
+//        Stream stream1 = list.stream().filter(s -> s.equals("a"));
+//
+//        stream1.forEach(s -> System.out.println(s));
+//        Stream stream1 = list.stream().sorted();
+//        stream1.forEach(s -> System.out.println(s));
 
 
     }
