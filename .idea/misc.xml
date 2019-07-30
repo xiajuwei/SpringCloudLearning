@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/spring/spring-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/java/io-nio/pom.xml" />
         <option value="$PROJECT_DIR$/java/thread-pool/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring-datasource/pom.xml" />
       </list>
     </option>
   </component>

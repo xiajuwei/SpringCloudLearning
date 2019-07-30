@@ -11,7 +11,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud/eureka-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud/eureka-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-rabbitmq" charset="UTF-8" />
   </component>
 </project>
