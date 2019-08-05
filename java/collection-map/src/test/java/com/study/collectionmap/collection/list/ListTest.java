@@ -17,6 +17,18 @@ import java.util.stream.Stream;
 @RunWith(SpringRunner.class)
 public class ListTest {
     /**
+     * 数组转list的方式
+     */
+    @Test
+    public void test() {
+        String[] arr = {"a", "b", "c", "d"};
+        List<String> list = new ArrayList<>(Arrays.asList(arr));
+        list.stream().forEach(s -> System.out.println(s));
+
+    }
+
+
+    /**
      * ArrayList: 底层是使用数组实现，所以查询速度快，增删速度慢
      */
     @Test
@@ -115,7 +127,7 @@ public class ListTest {
         Boolean exist = false;
         Stream<String> stream = list.stream().filter(s -> s.equals("a"));
         Collection<String> collection = stream.collect(Collectors.toList());
-        collection.forEach(s-> System.out.println(s));
+        collection.forEach(s -> System.out.println(s));
 
 //        List list1 = Arrays.asList(arr);
 //        list1.forEach(s-> System.out.println(s));
@@ -146,7 +158,6 @@ public class ListTest {
 //        stream.forEach(s -> System.out.println(s));
 ////        Stream stream = list.stream().filter(s -> !s.equals("a"));
 //        stream.forEach(s-> System.out.println(s));
-
 
 
     }
