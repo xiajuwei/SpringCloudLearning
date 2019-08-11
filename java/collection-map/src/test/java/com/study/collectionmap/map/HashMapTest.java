@@ -10,6 +10,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+import static com.sun.xml.internal.fastinfoset.util.ValueArray.MAXIMUM_CAPACITY;
+
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class HashMapTest {
@@ -44,13 +46,50 @@ public class HashMapTest {
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         int n = 10 - 1;
         n |= n + 1;
         System.out.println(n);
 
     }
 
+    @Test
+    public void test3() {
+        int a = 2 << 1;// 2*2^1
+        System.out.println(a);
+        int b = 8 << 3;//8*2^3
+        System.out.println(b);
+
+
+    }
+
+    @Test
+    public void test4() {
+//        int a = tableSizeFor(5);
+//        System.out.println(a);
+        int n = 4;
+        int b = n>>>1;
+        System.out.println(b);
+        n |= b;
+        System.out.println(n);
+
+    }
+
+
+    static final int tableSizeFor(int cap) {
+        int n = cap - 1;
+        n |= n >>> 1;
+        System.out.println(n);
+        n |= n >>> 2;
+        System.out.println(n);
+        n |= n >>> 4;
+        System.out.println(n);
+        n |= n >>> 8;
+        System.out.println(n);
+        n |= n >>> 16;
+        System.out.println(n);
+        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
+    }
 
 
 }
